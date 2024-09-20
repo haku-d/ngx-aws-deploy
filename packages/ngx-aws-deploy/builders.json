@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "deploy": {
+      "implementation": "./src/lib/ngx-aws-deploy",
+      "schema": "./src/lib/ngx-aws-deplo/schema.json",
+      "description": "Deploy to AWS S3."
+    }
+  }
+}
